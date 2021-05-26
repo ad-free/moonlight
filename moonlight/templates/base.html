@@ -1,0 +1,35 @@
+{% load i18n static %}
+<!doctype html>
+<!--[if IE 8]>
+<html lang="en" class="ie8 no-js"> <![endif]-->
+<!--[if IE 9]>
+<html lang="en" class="ie9 no-js"> <![endif]-->
+<!--[if !IE]><!-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Home</title>
+
+    <link rel="stylesheet" href="{% static 'assets/global/css/bootstrap.min.css' %}">
+</head>
+<body>
+<nav class="navbar navbar-light bg-light">
+    <a class="navbar-brand" href="#">
+        <img src="{% static 'assets/global/img/bootstrap.svg' %}" width="30" height="30" alt="">
+    </a>
+</nav>
+<main role="main" class="container">
+    {% block content %}{% endblock %}
+</main>
+</body>
+
+{% block index_js %}
+    <script src="{% static 'assets/global/js/jquery-3.6.0.slim.min.js' %}"></script>
+    <script src="{% static 'assets/global/js/popper.min.js' %}"></script>
+    <script src="{% static 'assets/global/js/bootstrap.min.js' %}"></script>
+{% endblock %}
+</html>
