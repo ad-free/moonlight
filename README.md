@@ -1,7 +1,6 @@
 # Moonlight Project Guide
 
 [![Python version](https://img.shields.io/badge/python-3.9.5-blue.svg)](https://www.python.org/downloads/release/python-395/)
-![Lines of code](https://img.shields.io/tokei/lines/github/ad-free/moonlight)
 ![GitHub repo size](https://img.shields.io/github/repo-size/ad-free/moonlight)
 ![GitHub pull requests](https://img.shields.io/github/issues-pr/ad-free/moonlight)
 ![GitHub issues](https://img.shields.io/github/issues/ad-free/moonlight)
